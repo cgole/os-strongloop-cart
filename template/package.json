@@ -1,0 +1,37 @@
+{
+  "name":"StrongLoop-SampleApp",
+  "version":"0.1.0",
+  "description":  "StrongLoop Sample PaaS Application",
+
+  "keywords": [ "StrongLoop", "strongloop", "Node.js", "node.js", 
+                "PaaS", "application"
+              ],
+
+  "author": {
+     "name": "StrongLoop",
+     "url": "https://github.com/strongloop/dist-paas-quickstart"
+  },
+
+  "repository": { 
+    "type": "git",
+    "url":  "https://github.com/strongloop/dist-paas-quickstart"
+  },
+
+  "dependencies": {
+    "strong-agent": "latest",
+    "ejs":       "latest",
+    "express":   "latest"
+  },
+
+  "devDependencies": {
+  },
+
+  "bundleDependencies": [],
+
+  "main": "server.js",
+
+  "scripts":{
+    "start":"node server.js"
+  }
+
+}
